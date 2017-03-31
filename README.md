@@ -46,8 +46,8 @@
 Для генерации сообщения использовать данную функцию:
 ```javaScript
 function getMessage(){
-this.cnt = this.cnt || 0;
-return this.cnt++;
+  this.cnt = this.cnt || 0;
+  return this.cnt++;
 }
 ```
 
