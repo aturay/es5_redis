@@ -5,13 +5,13 @@
  - NodeJS
 
 ## Running
- * node pubsub.js # master
- * node pubsub.js # slave
+ * node pubsub.js # generator
+ * node pubsub.js # handler
  * ....
- * node pubsub.js # slave
+ * node pubsub.js # handler
  
 ## Show Logs 
- * node pubsub.js getErrors
+ * node run.js getErrors
 
 ### Задание
 При написании разрешено использовать любые встроенные `node.js` модули, кроме `cluster`. Также
